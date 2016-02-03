@@ -29,5 +29,4 @@ if __name__ == '__main__':
     auth.set_access_token(access_token, access_token_secret)
     stream = Stream(auth, l)
 
-    #This line filters Twitter SStreams to capture data by the key words
-    stream.filter(track=['python','javascript','ruby'])
+    
